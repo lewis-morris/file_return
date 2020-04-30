@@ -2,6 +2,16 @@
 
 > Basic random file returner - created becuase I'm always wanting a random file to test my CNN's and its a pain to keep going back to the folder for file names.
 
+
+## installation 
+
+in terminal 
+
+```
+git clone https://github.com/lewis-morris/file_return/
+cd file_return
+pip install -e .
+
 ## Usage
 
 ```python
