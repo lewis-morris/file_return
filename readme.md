@@ -12,6 +12,8 @@ git clone https://github.com/lewis-morris/file_return/
 cd file_return
 pip install -e .
 
+```
+
 ## Usage
 
 ```python
@@ -23,3 +25,7 @@ fl = file_return(directory="./", include_sub=True, prefix_ext=[".jpg",".png"],re
 random_file =  fl.return_files()
 
 ```
+
+## For more info check the example jupyter notebook
+
+[Jupyter examples](./examples.ipynb)
