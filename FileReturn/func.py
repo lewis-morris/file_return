@@ -1,5 +1,6 @@
 from random import shuffle
 import os
+import numpy as np
 
 class file_return:
 
@@ -41,5 +42,4 @@ class file_return:
         elif self.return_list:
             return files_list
         else:
-            shuffle(files_list)
-            return(files_list[0])
+            return(files_list[np.random.randint(0,len(files_list))])

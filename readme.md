@@ -1,6 +1,10 @@
 # file_return
 
-> Basic random file returner - created becuase I'm always wanting a random file to test my CNN's and its a pain to keep going back to the folder for file names.
+### Basic random file returner 
+>
+> Useful when testing image transforms etc. I find I am constantly trying to gather
+> a random images while working with CNN's
+> I've made made this to help me tidy up my code.
 
 ## Usage
 
@@ -13,3 +17,7 @@ fl = file_return(directory="./", include_sub=True, prefix_ext=[".jpg",".png"],re
 random_file =  fl.return_files()
 
 ```
+
+## For more examples see below
+
+[Jupyter Examples](./examples.ipynb)
