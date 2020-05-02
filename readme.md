@@ -13,7 +13,7 @@
 from FileReturn import file_return
 
 
-fl = file_return(directory="./", include_sub=True, prefix_ext=[".jpg",".png"],return_list=False )
+fl = file_return(directory="./", include_sub=True, prefix_ext=[".jpg",".png"], return_list=False )
 random_file =  fl.return_files()
 
 ```
