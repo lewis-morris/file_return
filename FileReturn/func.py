@@ -3,7 +3,7 @@ import os
 
 class file_return:
 
-    def __init__(self,directory="./", include_sub=True,return_list=False, prefix_ext=[".jpg"], ):
+    def __init__(self, directory="./", include_sub=True, return_list=False, ext=[".jpg"], ):
         """
         Simple class to return files from directory in list.
         Can return single file name for random selection or full list.
@@ -12,12 +12,12 @@ class file_return:
         :param directory: (str) Search directory
         :param include_sub: (bool) - should include sub directories
         :param return_list: (bool) - return list True / return random file False
-        :param prefix_ext: (list(str)) - list of file ext's to return use [] for all files.
+        :param ext: (list(str)) - list of file ext's to return use [] for all files.
         """
         self.directory = directory
         self.include_sub = include_sub
         self.return_list = return_list
-        self.prefix_ext = prefix_ext
+        self.ext = ext
 
     def return_files(self):
 
@@ -28,7 +28,7 @@ class file_return:
 
             if len(files) != 0:
                 for fl in files:
-                    if "." + fl.split(".")[-1] in self.prefix_ext or self.prefix_ext == []:
+                    if "." + fl.split(".")[-1] in self.ext or self.ext == []:
                         if root[-1] == "/":
                             files_list.append(root + fl)
                         else:
