@@ -1,6 +1,6 @@
 # file_return
 
-> Basic random file returner - becuase I'm always wanting a random file to test my CNN's and its a pain to keep going back to the folder for file names or re-writing the same code when I need it. Just saving myself some finger time.
+> Basic random file returner - becuase I'm always wanting a random file to test my CNN's and its a pain to keep going back to the folder for file names or re-writing the same code when I need it. Just saving my fingers some work.
 
 
 ## Installation 
